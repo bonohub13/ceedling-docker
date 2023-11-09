@@ -1,0 +1,26 @@
+[
+ {
+  "directory": "/app",
+  "arguments": [
+   "/usr/bin/gcc",
+   "-c",
+   "-o",
+   "build/src/add/include/add.o",
+   "src/add/src/add.c",
+   "-Isrc/add/include"
+  ],
+  "file": "src/add/src/add.c"
+ },
+ {
+  "directory": "/app",
+  "arguments": [
+   "/usr/bin/gcc",
+   "-c",
+   "-o",
+   "build/src/main.o",
+   "src/main.c",
+   "-Isrc/add/include"
+  ],
+  "file": "src/main.c"
+ }
+]
